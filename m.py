@@ -30,6 +30,6 @@ async def private(c,msg):
 
 try:
   print("\n• Done bot started ..\n")
-  await app.run()
+  app.run()
 except :
   print("• التوكن غير صحيح")
